@@ -4,7 +4,7 @@ exports.getOperator =function getOperator(country_code, mssisdn)
 
         if(country_code == "NG")
         {
-
+ 
         var operator_prefix = mssisdn.substring(0, 4);
 
         console.log(operator_prefix);
